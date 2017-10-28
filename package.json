@@ -4,7 +4,8 @@
   "description": "Simplicity Improved",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --opts ./mocha.conf ./src/**/*.test.js"
+    "test": "mocha --opts ./mocha.conf ./src/**/*.test.js",
+    "generate": "node template.js"
   },
   "repository": {
     "type": "git",
