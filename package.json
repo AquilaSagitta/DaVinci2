@@ -1,0 +1,30 @@
+{
+  "name": "davinci2",
+  "version": "0.0.1",
+  "description": "Simplicity Improved",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts ./mocha.conf --require mocha.bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AquilaSagitta/DaVinci2.git"
+  },
+  "keywords": [
+    "simplicity",
+    "template"
+  ],
+  "author": "Chris Blahut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AquilaSagitta/DaVinci2/issues"
+  },
+  "homepage": "https://github.com/AquilaSagitta/DaVinci2#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.2",
+    "sinon-chai": "^2.14.0"
+  },
+  "dependencies": {}
+}
