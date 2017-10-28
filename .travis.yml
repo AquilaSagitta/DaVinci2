@@ -1,0 +1,9 @@
+language: node_js
+node_js: "8"
+dist: trusty
+cache:
+  directories:
+    - "node_modules"
+notifications:
+  email:
+    - c.blahut@foreverbride.com
