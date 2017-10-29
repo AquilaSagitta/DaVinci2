@@ -1,9 +1,16 @@
-language: node_js
-node_js: "8"
+language: php
+php: "5.6"
 dist: trusty
 cache:
   directories:
     - "node_modules"
+    - "vendor"
 notifications:
   email:
     - c.blahut@foreverbride.com
+before_script:
+  - composer install
+  - npm install
+script:
+  - ./vendor/bin/phpunit --configuration ./phpunit.xml ./src
+  - npm test
