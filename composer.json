@@ -1,0 +1,18 @@
+{
+    "name": "davinci/davinci",
+    "description": "Simplicity Improved",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Blahut",
+            "email": "c.blahut@foreverbride.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "phpunit/dbunit": "^2.0"
+    }
+}
