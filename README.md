@@ -1,9 +1,11 @@
-#DaVinci 2
+[![Build Status](https://travis-ci.org/AquilaSagitta/DaVinci2.svg?branch=master)](https://travis-ci.org/AquilaSagitta/DaVinci2)
+
+# DaVinci 2
 
 Simplicity Improved. DaVinci 2 is an opinionated foundation for new projects based on a PHP, MySQL, and *nix based
 stack.
 
-##Roadmap
+## Roadmap
 
 - create templated files from CLI to speed up repetitive boiler plate
 - custom templates for extending in the future
