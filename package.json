@@ -4,7 +4,8 @@
   "description": "Simplicity Improved",
   "main": "index.js",
   "scripts": {
-    "test": "concurrently -n \"Mocha,PHPUnit,Phantom\" \"cross-env mocha --opts ./mocha.conf ./src/**/*.test.js\" \"cross-env vendor/bin/phpunit src/\" \"cross-env phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js src/phantomTestHarness.html\""
+    "start": "concurrently \"vagrant up\"",
+    "test": "concurrently -n \"Mocha,PHPUnit,Puppeteer\" \"cross-env mocha --opts ./mocha.conf ./src/**/*.test.js\" \"cross-env vendor/bin/phpunit src/\" \"cross-env phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js src/phantomTestHarness.html\""
   },
   "repository": {
     "type": "git",
@@ -25,9 +26,8 @@
     "concurrently": "^3.5.0",
     "cross-env": "^5.1.1",
     "mocha": "^4.0.1",
-    "mocha-phantomjs-core": "^2.1.2",
-    "phantomjs-prebuilt": "^2.1.16",
-    "sinon": "^4.0.2",
+    "puppeteer": "^0.13.0",
+    "sinon": "^4.1.2",
     "sinon-chai": "^2.14.0"
   },
   "dependencies": {}
