@@ -11,4 +11,8 @@ Vagrant.configure("2") do |config|
     config.vm.network "forwarded_port", guest: 3306, host: 8889
     config.vm.synced_folder "src/", "/srv/website"
     config.vm.provision "shell", path: "provision.sh"
+    config.vm.provider "virtualbox" do |v|
+      v.memory = 1024
+      v.cpus = 2
+    end
 end
